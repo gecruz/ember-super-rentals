@@ -6,7 +6,6 @@ export default Ember.Object.extend({
 
   init() {
     this.set('geocoder', new google.maps.Geocoder());
-    console.log(google)
   },
 
   createMap(element, location) {
