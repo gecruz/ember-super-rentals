@@ -1,15 +1,17 @@
 {
   "name": "super-rentals",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
-  "description": "Small description for super-rentals goes here",
+  "description": "Simple application example using ember and google maps",
   "license": "MIT",
   "author": "",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gecruz/ember-super-rentals.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
